@@ -1,7 +1,7 @@
 name: '@sharktide/iscc-cli'
 description: Use the inno setup CLI with this action!
 
-author: '@NadeemJazmawe'
+author: '@sharktide'
 
 inputs:
   filepath:
@@ -10,6 +10,9 @@ inputs:
   options:
     description: 'Optional command-line options for ISCC'
     required: false
+branding:
+  icon: 'terminal'
+  color: 'blue'
 
 runs:
   using: 'composite'
