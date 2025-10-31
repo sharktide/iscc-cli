@@ -1,2 +1,2 @@
-src/* -linguist-detectable
+src/* linguist-vendored
 *.yaml linguist-detectable
